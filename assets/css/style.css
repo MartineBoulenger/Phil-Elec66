@@ -872,6 +872,15 @@ section {
   .team .member {
     margin-bottom: 110px;
   }
+
+}
+@media (max-width: 795px) {
+
+  
+  .team .member .member-info {
+    position: relative;
+    left: 10px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1119,6 +1128,10 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+#footer .img-fluid{
+  width: 150px;
+  height: 150px;
 }
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
